@@ -117,16 +117,16 @@ closeDatabaseConnection($conn)
                 <div class="social">
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=61550289917163&mibextid=ZbWKwL"><i class="bi bi-instagram"></i></a>
+                            <a href="https://instagram.com/countryardjimcorbett?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="bi bi-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=61550289917163&mibextid=ZbWKwL"><i class="bi bi-whatsapp"></i></a>
+                            <a href=#><i class="bi bi-whatsapp"></i></a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/profile.php?id=61550289917163&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=61550289917163&mibextid=ZbWKwL"><i class="bi bi-twitter"></i></a>
+                            <a href=#><i class="bi bi-twitter"></i></a>
                         </li>
                     </ul>
                 </div>

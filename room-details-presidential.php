@@ -99,7 +99,7 @@ closeDatabaseConnection($conn)
                             <div id="videoContainer"
                                 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                                 <video autoplay muted loop>
-                                    <source src="video/VID20230728180423.mp4" type="video/mp4">
+                                    <source src="video/presidential.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -148,13 +148,16 @@ closeDatabaseConnection($conn)
                         <div class="room_facilities_list">
                             <ul data-cues="slideInLeft">
                                 <li><i class="icon-hotel-double_bed_2"></i> King Size Bed</li>
-                                <li><i class="icon-hotel-safety_box"></i> Interconnected Rooms</li>
+                                <li><i><img src="img\svg_icons\interconnected-room.svg" style="height: 34px; width: 34px; "alt=""></i>Interconnected Rooms</li>
+
                                 <li><i class="icon-hotel-tv"></i> 55 Inch TV</li>
                                 <li><i class="icon-hotel-disable"></i> Wheelchair Access</li>
                                 <li><i class="icon-hotel-dog"></i> Pet Allowed</li>
                                 <li><i class="icon-hotel-wifi"></i> Wifi</li>
                                 <li><i class="icon-hotel-hairdryer"></i> Hair Dryer</li>
                                 <li><i class="icon-hotel-condition"></i> Air Condition</li>
+                                <li><i><img src="img\svg_icons\mini-fridge.svg" style="height: 34px; width: 34px; "alt=""></i> Mini Freeze</li>
+
                             </ul>
                         </div>
                     </div>
@@ -316,7 +319,7 @@ closeDatabaseConnection($conn)
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></small>
-                                        <h3>Countryard Room</h3>
+                                        <h3>Countryard Suites</h3>
                                         <span>Read more</span>
                                     </div>
                                 </figure>

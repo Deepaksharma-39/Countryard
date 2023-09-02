@@ -94,32 +94,35 @@ closeDatabaseConnection($conn)
             <div class="container-fluid p-lg-0">
                 <div data-cues="zoomIn">
                     <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img">
-                    <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                    <div class="item" style="position: relative; height: 600px; overflow: hidden;">
                             <div id="videoContainer"
                                 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                                 <video autoplay muted loop>
-                                    <source src="video/deer.mp4" type="video/mp4">
+                                    <source src="video/leopard.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item" >
                             <img src="img/rooms/leopard-lair1.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item" >
                             <img src="img/rooms/leopard-lair2.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item" >
                             <img src="img/rooms/leopard-lair3.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item" >
                             <img src="img/rooms/leopard-lair4.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="text-center mt-5">
-                    <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="image"
-                        href="img/rooms/leopard-lair2.jpg">FullScreen Gallery</a>
+                <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="video"
+                        href="video/leopard.mp4">FullScreen
+                        Gallery</a>
+                    <adata-fslightbox="gallery_1" data-type="image"
+                        href="img/rooms/leopard-lair2.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/leopard-lair4.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/leopard-lair1.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/leopard-lair3.jpg"></a>
@@ -156,6 +159,8 @@ closeDatabaseConnection($conn)
                                 <li><i class="icon-hotel-wifi"></i> Wifi </li>
                                 <li><i class="icon-hotel-hairdryer"></i> Hair Dryer</li>
                                 <li><i class="icon-hotel-condition"></i> Air Condition</li>
+                                <li><i><img src="img\svg_icons\mini-fridge.svg" style="height: 34px; width: 34px; "alt=""></i> Mini Freeze</li>
+
                             </ul>
                         </div>
                     </div>
@@ -313,7 +318,7 @@ closeDatabaseConnection($conn)
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></small>
-                                        <h3>Countryard Room</h3>
+                                        <h3>Countryard Suites</h3>
                                         <span>Read more</span>
                                     </div>
                                 </figure>

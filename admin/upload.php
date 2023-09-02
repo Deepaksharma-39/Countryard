@@ -51,11 +51,12 @@ if (isset($_POST['upload'])) {
         }
     }
 
-    // Close the database connection
-    closeDatabaseConnection($conn);
+        // Close the database connection
+        closeDatabaseConnection($conn);
 
-    // Provide feedback on successful uploads
-    echo "{$uploadSuccessCount} media files uploaded and information stored in the database.";
+        // // Provide feedback on successful uploads
+        // echo "{$uploadSuccessCount} images uploaded and information stored in the database.";
+    
 }
 ?>
 
@@ -63,10 +64,10 @@ if (isset($_POST['upload'])) {
   var uploadSuccessCount = <?php echo $uploadSuccessCount; ?>;
   
   // Display an alert
-  window.alert(uploadSuccessCount + " media files uploaded and information stored in the database.");
+  window.alert(uploadSuccessCount + " images uploaded and information stored in the database.");
   
   // Redirect to another page after a delay (for example, after 3 seconds)
   setTimeout(function() {
     window.location.href = "gallery.php"; // Replace with your desired URL
-  }, 1000); // Delay in milliseconds (1 second in this example)
+  }, 1000); // Delay in milliseconds (1 seconds in this example)
 </script>

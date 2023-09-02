@@ -82,13 +82,14 @@ function getRoomPrices($conn) {
 function getPaginatedImageData($conn) {
     
     // Fetch image data from the database with pagination
-    $sql = "SELECT filename, filepath FROM images";
+    $sql = "SELECT id,filename, filepath FROM images";
     $result = $conn->query($sql);
 
     $imageData = array();
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
             $imageData[] = array(
+                "id" => $row["id"],
                 "src" => 'admin/' . $row["filepath"],
                 "link" => 'admin/' . $row["filepath"]
             );

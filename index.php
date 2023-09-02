@@ -70,7 +70,7 @@ closeDatabaseConnection($conn)
 
     <main>
         <div class="hero full-height jarallax"
-            data-jarallax-video="mp4:./video/sunset.mp4,webm:./video/sunset.webm,ogv:./video/sunset.ogv"
+            data-jarallax-video="mp4:./video/homepage.mp4,webm:./video/sunset.webm,ogv:./video/sunset.ogv"
             data-speed="0.2">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
@@ -135,9 +135,9 @@ closeDatabaseConnection($conn)
             <div class="pinned-image pinned-image--medium">
                 <div class="pinned-image__container" id="section_video">
                     <video loop="loop" muted="muted" id="video_home">
-                        <source src="video/swimming_pool_2.mp4" type="video/mp4" />
-                        <source src="video/swimming_pool_2.webm" type="video/webm" />
-                        <source src="video/swimming_pool_2.ogv" type="video/ogg" />
+                        <source src="video/swimming_pool.mp4" type="video/mp4" />
+                        <!-- <source src="video/swimming_pool_2.webm" type="video/webm" />
+                        <source src="video/swimming_pool_2.ogv" type="video/ogg" /> -->
                     </video>
                     <div class="pinned-image__container-overlay"></div>
                 </div>
@@ -411,7 +411,7 @@ closeDatabaseConnection($conn)
                                             <figure>
                                                 <img src="img/client2.jpg" alt="" class="img-circle" />
                                             </figure>
-                                            <h4>Parth<small>12 Oct</small></h4>
+                                            <h4>Parth<small>24 Jul</small></h4>
                                         </div>
                                         <div class="comment">
                                             "Exquisite stay filled with elegance and comfort. The
@@ -427,7 +427,7 @@ closeDatabaseConnection($conn)
                                             <figure>
                                                 <img src="img/client1.jpg" alt="" class="img-circle" />
                                             </figure>
-                                            <h4>Shivani<small>2 Nov</small></h4>
+                                            <h4>Shivani<small>2 Aug</small></h4>
                                         </div>
                                         <div class="comment">
                                             "Our family retreat at Countryard Resort was a dream.
@@ -443,7 +443,7 @@ closeDatabaseConnection($conn)
                                             <figure>
                                                 <img src="img/client3.jpg" alt="" class="img-circle" />
                                             </figure>
-                                            <h4>Shekhar<small>3 Dec</small></h4>
+                                            <h4>Shekhar<small>31 Aug</small></h4>
                                         </div>
                                         <div class="comment">
                                             "enchanting escape that exceeded our expectations. The

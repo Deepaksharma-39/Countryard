@@ -63,7 +63,7 @@
                 </li>
                 <li><a href="../gallery.php">Gallery</a></li>
                 <li><a href="../about.php">About</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="../contact.php">Contact</a></li>
 
                 <li><a href="../privacypolicy.php">Privacy Policy</a>
                 <li><a href="../terms&condition.php">Terms & Conditions</a>

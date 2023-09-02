@@ -94,32 +94,32 @@ closeDatabaseConnection($conn)
             <div class="container-fluid p-lg-0">
                 <div data-cues="zoomIn">
                     <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img">
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item" style="position: relative; height: 600px; overflow: hidden;">
                             <div id="videoContainer"
                                 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                                 <video autoplay muted loop>
-                                    <source src="video/deer.mp4" type="video/mp4">
+                                    <source src="video/countryard.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item">
                             <img src="img/rooms/Countryard-Suite1.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item">
                             <img src="img/rooms/Countryard-Suite2.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item">
                             <img src="img/rooms/Countryard-Suite3.jpg" alt="">
                         </div>
-                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                        <div class="item">
                             <img src="img/rooms/Countryard-Suite4.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="text-center mt-5">
                     <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="video"
-                        href="video/deer.mp4">FullScreen
+                        href="video/countryard.mp4">FullScreen
                         Gallery</a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite1.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite2.jpg"></a>
@@ -160,6 +160,7 @@ closeDatabaseConnection($conn)
                                 <li><i class="icon-hotel-wifi"></i> Wifi</li>
                                 <li><i class="icon-hotel-hairdryer"></i> Hair Dryer</li>
                                 <li><i class="icon-hotel-condition"></i> Air Condition</li>
+                                <li><i><img src="img\svg_icons\mini-fridge.svg" style="height: 34px; width: 34px; "alt=""></i> Mini Freeze</li>
                             </ul>
 
 

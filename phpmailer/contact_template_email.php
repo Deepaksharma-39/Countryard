@@ -21,10 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   
     $conn = connectToDatabase();
 
-    $to = "deepaksharmaa.39@gmail.com";
+    $to = "info@ewdhotels.com";
     $subject = "Contact Form Submission from $name";
     $headers = "From: $email";
-    $mailBody = "Name: $name\nEmail: $email\n\n$message";
+    $mailBody = "Name: $name\nEmail: $email\nMobile: $phone\n\n$message";
 
     // Send the email using the mail() function
     if (mail($to, $subject, $mailBody, $headers)) {

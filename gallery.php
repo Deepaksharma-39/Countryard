@@ -60,11 +60,11 @@ closeDatabaseConnection($conn)
     <main>
 
         <div class="hero medium-height jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img" src="img/rooms/Untitled-2.jpg" alt="">
+            <img class="jarallax-img" src="img/C2.jpg" alt="">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
-                    <small class="slide-animated one">Luxury Hotel Experience</small>
+                    <small class="slide-animated one">Luxury Resort Experience</small>
                     <h1 class="slide-animated two">Gallery</h1>
                 </div>
             </div>
@@ -76,79 +76,61 @@ closeDatabaseConnection($conn)
 
                 <div class="row justify-content-center">
                     <?php
-// Loop through the image data and generate the HTML code
-foreach ($mediaData as $data) {
-    $mediaSrc = $data["src"];
-    $mediaLink = $data["link"];
-    $isVideo = strpos($mediaSrc, 'VID') !== false; // Check if it's a video
-
-    echo '<div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">';
-    echo '<div class="item-img" data-cue="slideInUp">';
-
-    if ($isVideo) {
-        echo '<div class="video-container">';
-        echo "<video controls autoplay class='landscape-video'>";
-        echo "<source src='$mediaSrc' type='video/mp4'>";
-        echo "Your browser does not support the video tag.";
-        echo "</video>";
-        echo '</div>';
-    } else {
-        echo "<img src='$mediaSrc' alt='' />";
-       
-    }
-
-    echo '<div class="content">';
-    echo "<a data-fslightbox='gallery_1' data-type='" . ($isVideo ? 'video' : 'image') . "' href='$mediaLink'>";
-    echo "<i class='bi " . ($isVideo ? 'bi-play-circle' : 'bi-arrows-angle-expand') . "'></i>";
-    echo "</a>";
-    echo '</div>';
-    echo '</div>';
-    echo '</div>';
-
-    // Add CSS for the landscape video
-echo '<style>
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
-    height: 0;
-    overflow: hidden;
-}
-
-.landscape-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-</style>';
-}
-?>
+                                    // Loop through the image data and generate the HTML code
+                            foreach ($mediaData as $data) {
+                            $mediaSrc = $data["src"];
+                                $mediaLink = $data["link"];
+                                $isVideo = strpos($mediaSrc, 'VID') !== false; // Check if it's a video
+                            
+                                echo '<div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">';
+                                echo '<div class="item-img" data-cue="slideInUp">';
+                            
+                                if ($isVideo) {
+                                    echo '<div class="video-container">';
+                                    echo "<video controls autoplay muted loop class='landscape-video'>";
+                                    echo "<source src='$mediaSrc' type='video/mp4'>";
+                                    echo "Your browser does not support the video tag.";
+                                    echo "</video>";
+                                    echo '</div>';
+                                } else {
+                                    echo "<img src='$mediaSrc' alt='' />";
+                                
+                                }
+                            
+                                echo '<div class="content">';
+                                echo "<a data-fslightbox='gallery_1' data-type='" . ($isVideo ? 'video' : 'image') . "' href='$mediaLink'>";
+                                echo "<i class='bi " . ($isVideo ? 'bi-play-circle' : 'bi-arrows-angle-expand') . "'></i>";
+                                echo "</a>";
+                                echo '</div>';
+                                echo '</div>';
+                                echo '</div>';
+                            
+                                 // Add CSS for the landscape video
+                            echo '<style>
+                            .video-container {
+                                position: relative;
+                                padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+                                height: 0;
+                                overflow: hidden;
+                            }
+                            
+                            .landscape-video {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                            }
+                            </style>';
+                            
+                            }
+                            
+                            ?>
 
                 </div>
                 <!--/row -->
             </div>
-            <!--/isotope-wrapper -->
 
-            <!-- <div class="pagination__wrapper">
-                <ul class="pagination">
-                    <li><a href="#0" class="prev"><i class="bi bi-arrow-left-short"></i></a></li>
-                    <li>
-                        <a href="#0" class="active">1</a>
-                    </li>
-                    <li>
-                        <a href="#0">2</a>
-                    </li>
-                    <li>
-                        <a href="#0">3</a>
-                    </li>
-                    <li>
-                        <a href="#0">4</a>
-                    </li>
-                    <li><a href="#0" class="next"><i class="bi bi-arrow-right-short"></i></a></li>
-                </ul>
-            </div> -->
-            <!-- /pagination -->
 
         </div>
         <!--/container -->

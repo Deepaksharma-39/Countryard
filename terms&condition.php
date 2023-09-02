@@ -66,34 +66,36 @@
 
                 <h4>Resort Check-in and Check-out</h4>
                 <p>Arrival time is 2:00 PM, and departure time is 11:00 AM. Rooms will be held until 6:00 PM on arrival
-                    day unless notified of late arrival.</h4>
+                    day unless notified of late arrival.</p>
 
 
                 <h4>Late Check-out</h4>
                 <p>Late check-out requires an advance request, subject to room availability. Price changes may occur
-                    without notice.</h4>
+                    without notice.</p>
 
 
                 <h4>Occupancy and Extras</h4>
                 <p> Maximum room occupancy is 3 adults or 2 adults with 2 children under 5. Extra mattresses for
-                    adults/children are available.</h4>
+                    adults/children are available.</p>
 
                 <h4>Guest Identification</h4>
-                <p>NRIs/foreigners must present passports at check-in. Indian citizens require valid ID proof</h4>
+                <p>NRIs/foreigners must present passports at check-in. Indian citizens require valid ID proof</p>
 
                 <h4>Credit Card Usage</h4>
                 <p>The credit card used for booking must be shown during check-in. For bookings with others' cards, a
-                    copy, NOC, and details are needed.</h4>
+                    copy, NOC, and details are needed.</p>
 
                 <h4>Deposit Policy</h4>
-                <p>100% advance payment is necessary for confirmation. Credit card details are mandatory for
-                    reservations.</h4>
+                <p>Full payment deposit before 15 days of check in date.</p>
 
                 <h4>Cancellation Policy</h4>
-                <p>● Within 7 days of arrival: 100% retained.<br />
-                    ● 7 to 15 days prior: 50% refund.<br />
-                    ● Before 15 days: 100% refund.<br />
-                    </h4>
+                <p>
+                    ● 50% amount room rent cost refunded for cancellation before 30 days of check in date.<br />
+                    ● 25% room rent will be refunded 15 days of check in date.<br />
+                    ● 10% room rent will be refunded 7 days of check in date at resort.<br />
+                    ● No refund in any case for cancellation within 7 days of check in date at resort.<br />
+                    ● No refunds in case of a check out earlier than the booked schedule.<br />
+</p>
 
 
                 <p>*Terms are subject to change by Countryard. Proper documentation is essential;

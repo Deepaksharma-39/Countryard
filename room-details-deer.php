@@ -152,6 +152,8 @@ closeDatabaseConnection($conn)
                                 <li><i class="icon-hotel-wifi"></i> Wifi </li>
                                 <li><i class="icon-hotel-hairdryer"></i> Hair Dryer</li>
                                 <li><i class="icon-hotel-condition"></i> Air Condition</li>
+                                <li><i><img src="img\svg_icons\mini-fridge.svg" style="height: 34px; width: 34px; "alt=""></i> Mini Freeze</li>
+
                             </ul>
                         </div>
                     </div>
@@ -242,11 +244,9 @@ closeDatabaseConnection($conn)
                                     <em>Published 54 minutes ago</em>
                                 </div>
                                 <h4>"Great Location!!"</h4>
-                                <p>My stay at the Presidential Suite of Countryard exceeded all expectations. The
-                                    opulence and attention to detail were truly remarkable. From the spacious living
-                                    area to the private bar, every corner exuded luxury. The personalized service was
-                                    exceptional, and the panoramic city view from my suite was breathtaking. An
-                                    experience of pure indulgence.</p>
+                                <p>Impeccable service and attention to detail define my stay at the Deer Park Resort
+                                    room. The seamless room service and the fact that it's nestled within a wildlife
+                                    sanctuary added a unique touch. A perfect escape from the city hustle!</p>
                             </div>
                         </div>
                         <!-- /row -->
@@ -261,13 +261,13 @@ closeDatabaseConnection($conn)
                             <div class="col-md-10 review_content">
                                 <div class="clearfix mb-3">
                                     <span class="rating">8.5<small>/10</small> <strong>Rating average</strong></span>
-                                    <em>Published 10 Oct. 2022</em>
+                                    <em>Published 2 Aug. 2023</em>
                                 </div>
                                 <h4>"Awesome Experience"</h4>
-                                <p>My stay in the Presidential Suite at Countryard was an unforgettable journey into
-                                    elegance. The lavish bedroom with its exquisite bathroom felt like a haven of
-                                    comfort. The butler service added a touch of grandeur, and the assortment of
-                                    amenities, from champagne to fresh flowers, made me feel truly pampered.</p>
+                                <p>My family and I had the pleasure of staying at the Deer Park Resort room. The
+                                    unmatched balance between the opulent lodgings and the unspoiled natural splendor
+                                    was beyond comparison. We were truly impressed by the thoughtful amenities and the
+                                    attentive service</p>
                             </div>
                         </div>
                         <!-- /row -->
@@ -282,13 +282,12 @@ closeDatabaseConnection($conn)
                             <div class="col-md-10 review_content">
                                 <div class="clearfix mb-3">
                                     <span class="rating">9.0<small>/10</small> <strong>Rating average</strong></span>
-                                    <em>Published 11 Oct. 2022</em>
+                                    <em>Published 31 Aug. 2023</em>
                                 </div>
                                 <h4>"Really great dinner!!"</h4>
-                                <p>The Presidential Suite at Countryard is a haven of sophistication. The expansive
-                                    space, elegant furnishings, and high-end facilities made my stay not just
-                                    comfortable, but truly indulgent. A top-notch experience, especially for business
-                                    travelers seeking luxury and convenience.</p>
+                                <p>The Deer Park Resort room was an oasis of calm and luxury. The fact that it's
+                                    surrounded by a wildlife sanctuary added an extra layer of charm to my stay. The
+                                    level of service and the attention to every detail made it a memorable visit.</p>
                             </div>
                         </div>
                     </div>
@@ -313,7 +312,7 @@ closeDatabaseConnection($conn)
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></small>
-                                        <h3>Countryard Room</h3>
+                                        <h3>Countryard Suites</h3>
                                         <span>Read more</span>
                                     </div>
                                 </figure>
