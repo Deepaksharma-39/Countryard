@@ -9,6 +9,8 @@ $prices=getRoomPrices($conn);
 $leopardsLairPrice=$prices['leopards_lair'];
 $tigerDenPrice=$prices['tiger_den'];
 $presidentialSuitePrice=$prices['presidential_suite'];
+$countryardSuitePrice=$prices['countryard_suite'];
+$deerParkPrice=$prices['deer_park'];
 
 
 // close db connection
@@ -72,7 +74,7 @@ closeDatabaseConnection($conn)
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <small class="slide-animated one">Atrium Suites</small>
+                            <small class="slide-animated one">Classic Suites</small>
                             <h1 class="slide-animated two">Countryard Suite</h1>
                             <p class="slide-animated three">Distinctive Luxury and Flawless Service in Our Countryard
                                 Suites</p>
@@ -92,26 +94,37 @@ closeDatabaseConnection($conn)
             <div class="container-fluid p-lg-0">
                 <div data-cues="zoomIn">
                     <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img">
-                        <div class="item">
+                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
+                            <div id="videoContainer"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                <video autoplay muted loop>
+                                    <source src="video/deer.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
                             <img src="img/rooms/Countryard-Suite1.jpg" alt="">
                         </div>
-                        <div class="item">
+                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
                             <img src="img/rooms/Countryard-Suite2.jpg" alt="">
                         </div>
-                        <div class="item">
+                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
                             <img src="img/rooms/Countryard-Suite3.jpg" alt="">
                         </div>
-                        <div class="item">
+                        <div class="item" style="position: relative; height: 420px; overflow: hidden;">
                             <img src="img/rooms/Countryard-Suite4.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="text-center mt-5">
-                    <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="image"
-                        href="img/rooms/Countryard-Suite3.jpg">FullScreen Gallery</a>
+                    <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="video"
+                        href="video/deer.mp4">FullScreen
+                        Gallery</a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite1.jpg"></a>
-                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite4.jpg"></a>
                     <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite2.jpg"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite3.jpg"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Countryard-Suite4.jpg"></a>
                 </div>
             </div>
         </div>
@@ -142,10 +155,10 @@ closeDatabaseConnection($conn)
                                 <li><i class="icon-hotel-double_bed_2"></i> King Size Bed</li>
                                 <li><i class="icon-hotel-patio"></i>Balcony</li>
                                 <li><i class="icon-hotel-tv"></i> 55 Inch TV</li>
-                                <li><i class="icon-hotel-disable"></i> Disable Access</li>
+                                <li><i class="icon-hotel-disable"></i> Wheelchair Access</li>
                                 <li><i class="icon-hotel-dog"></i> Pet Allowed</li>
                                 <li><i class="icon-hotel-wifi"></i> Wifi</li>
-                                <li><i class="icon-hotel-hairdryer"></i> hair Dryer</li>
+                                <li><i class="icon-hotel-hairdryer"></i> Hair Dryer</li>
                                 <li><i class="icon-hotel-condition"></i> Air Condition</li>
                             </ul>
 
@@ -158,6 +171,12 @@ closeDatabaseConnection($conn)
                     </div>
 
                     <div style="justify-content: center; margin-top: 40px; text-align: center;">
+                        <h6><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></h6>
+                    </div>
+
+
+
+                    <div style="justify-content: center; text-align: center;">
 
                         <a href="https://hotels.eglobe-solutions.com/hotelcountryard/booking/detail"
                             class="btn_1 btn_scrollto">Book Now</a>
@@ -212,7 +231,7 @@ closeDatabaseConnection($conn)
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-3 col-2"><strong>6.0</strong></div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>8.0</strong></div>
                     </div>
                     <!-- /row -->
                     <h6>Price</h6>
@@ -223,7 +242,7 @@ closeDatabaseConnection($conn)
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-3 col-2"><strong>6.0</strong></div>
+                        <div class="col-xl-2 col-lg-3 col-2"><strong>8.0</strong></div>
                     </div>
                     <!-- /row -->
                 </div>
@@ -231,8 +250,8 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/avatar4.jpg" alt=""></figure>
-                                <h5>Lukas</h5>
+                                <figure><img src="img/client1.jpg" alt=""></figure>
+                                <h5>Shivani</h5>
                             </div>
                             <div class="col-md-10 review_content">
                                 <div class="clearfix mb-3">
@@ -253,20 +272,20 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/avatar6.jpg" alt=""></figure>
-                                <h5>Lukas</h5>
+                                <figure><img src="img/client2.jpg" alt=""></figure>
+                                <h5>Parth</h5>
                             </div>
                             <div class="col-md-10 review_content">
                                 <div class="clearfix mb-3">
                                     <span class="rating">8.5<small>/10</small> <strong>Rating average</strong></span>
-                                    <em>Published 10 Oct. 2022</em>
+                                    <em>Published 2 Aug. 2023</em>
                                 </div>
                                 <h4>"Awesome Experience"</h4>
                                 <p>As a frequent traveler, I'm accustomed to various accommodations, but the Countryard
                                     Suite at Countryard Resort redefined my expectations. The attention to detail in
                                     design and amenities was extraordinary. The room service was impeccable, catering to
                                     my demanding schedule. An oasis of tranquility amidst my business travels, where
-                                    every moment exuded sophistication</p>
+                                    every moment exuded sophistication.</p>
                             </div>
                         </div>
                         <!-- /row -->
@@ -275,13 +294,13 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/avatar1.jpg" alt=""></figure>
-                                <h5>Marika</h5>
+                                <figure><img src="img/client3.jpg" alt=""></figure>
+                                <h5>Shekhar</h5>
                             </div>
                             <div class="col-md-10 review_content">
                                 <div class="clearfix mb-3">
                                     <span class="rating">9.0<small>/10</small> <strong>Rating average</strong></span>
-                                    <em>Published 11 Oct. 2022</em>
+                                    <em>Published 31 Aug. 2023</em>
                                 </div>
                                 <h4>"Really great dinner!!"</h4>
                                 <p>Indulging in the Countryard Suite at Countryard Resort was like stepping into a haven
@@ -292,6 +311,7 @@ closeDatabaseConnection($conn)
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

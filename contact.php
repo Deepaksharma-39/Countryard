@@ -124,7 +124,7 @@ closeDatabaseConnection($conn)
                             <li>
                                 <i class="bi bi-telephone"></i>
                                 <h4>Telephone</h4>
-                                
+
                                 <div>Resort details</div>
                                 <div>+91 <?php echo $resort_phone_number1; ?><br />+91
                                     <?php echo $resort_phone_number2; ?></div><br />
@@ -183,24 +183,36 @@ closeDatabaseConnection($conn)
                                 name="message_contact"></textarea>
                             <label for="message_contact">Message</label>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-floating mb-4">
-                                    <input class="form-control" type="text" id="verify_contact" name="verify_contact"
-                                        placeholder="Are you human? 3 + 1 =">
-                                    <label for="verify_contact">Are you human? 3 + 1 =</label>
+                        <form action="process_form.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-4">
+                                        <input class="form-control" type="text" id="verify_contact"
+                                            name="verify_contact" placeholder="Are you human? 3 + 1 =">
+                                        <label for="verify_contact">Are you human? 3 + 1 =</label>
+                                    </div>
                                 </div>
                             </div>
+
+                            <p class="mt-3">
+                                <input type="submit" value="Submit" class="btn_1 outline" id="submit-contact">
+                            </p>
+                        </form>
+
+
+                        <div class="map_contact"><iframe
+                                src="https://maps.google.com/maps?q=29.3345,79.1386817&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                id="gmap_canvas" frameborder="0" scrolling="no"
+                                style="width: 600px; height: 400px;"></iframe>
+                            <a href="https://www.eireportingonline.com">ei reporting</a>
+
                         </div>
-                        <p class="mt-3">
-                            <input type="submit" value="Submit" class="btn_1 outline" id="submit-contact">
-                        </p>
-                    </form>
+
                 </div>
             </div>
             <!-- /row -->
         </div>
-       
+
 
 
 

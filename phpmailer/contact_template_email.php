@@ -1,4 +1,7 @@
 <?php
+
+include_once '../config.php';
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Validate and sanitize input data
     $name = htmlspecialchars($_POST["name_contact"]);
@@ -15,18 +18,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Database connection
-    $db_host = 'localhost';
-    $db_user = 'root';
-    $db_pass = '';
-    $db_name = 'countryard';
+  
+    $conn = connectToDatabase();
 
-    $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+    $to = "deepaksharmaa.39@gmail.com";
+    $subject = "Contact Form Submission from $name";
+    $headers = "From: $email";
+    $mailBody = "Name: $name\nEmail: $email\n\n$message";
 
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
-
-    // Prepare and execute SQL statement using prepared statement
+    // Send the email using the mail() function
+    if (mail($to, $subject, $mailBody, $headers)) {
+        // Email sent successfully
+         // Prepare and execute SQL statement using prepared statement
     $query = "INSERT INTO contact_form (name, lastname, email, phone, message) VALUES (?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $query);
     mysqli_stmt_bind_param($stmt, "sssss", $name, $lastname, $email, $phone, $message);
@@ -36,6 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
         echo "Error: " . mysqli_error($conn);
     }
+    } else {
+        // Email sending failed
+        echo "Sorry, there was an error sending your message. Please try again later.";
+    }
+
+  
 
     mysqli_stmt_close($stmt);
     mysqli_close($conn);

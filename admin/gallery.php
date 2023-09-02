@@ -92,8 +92,7 @@ closeDatabaseConnection($conn);
                     <h2>Upload an Image</h2>
                     <div class="form-row">
                         <label for="images">Select Images:</label>
-                        <input type="file" name="images[]" id="images" accept="image/*" multiple required>
-
+                        <input type="file" name="media[]" id="images" accept="image/*,video/*" multiple required>
                     </div>
                     <input type="submit" name="upload" value="Upload" class='edit-button'>
                 </form>

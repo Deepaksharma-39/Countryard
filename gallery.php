@@ -4,7 +4,7 @@ include_once 'config.php';
 // $presidentialSuitePrice=$countryardSuitePrice=$tigerDenPrice=$leopardsLairPrice=$deerParkPrice='';
 
 $conn = connectToDatabase();
-$imageData=getPaginatedImageData($conn);
+$mediaData=getPaginatedImageData($conn);
 closeDatabaseConnection($conn)   
 ?>
 
@@ -77,21 +77,52 @@ closeDatabaseConnection($conn)
                 <div class="row justify-content-center">
                     <?php
 // Loop through the image data and generate the HTML code
-foreach ($imageData as $data) {
-    $imgSrc = $data["src"];
-    $imgLink = $data["link"];
-    echo <<<HTML
-    <div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">
-        <div class="item-img" data-cue="slideInUp">
-            <img src="$imgSrc" alt="" />
-            <div class="content">
-                <a data-fslightbox="gallery_1" data-type="image" href="$imgLink"><i class="bi bi-arrows-angle-expand"></i></a>
-            </div>
-        </div>
-    </div>
-HTML;
+foreach ($mediaData as $data) {
+    $mediaSrc = $data["src"];
+    $mediaLink = $data["link"];
+    $isVideo = strpos($mediaSrc, 'VID') !== false; // Check if it's a video
+
+    echo '<div class="item col-xl-4 col-lg-6 col-mb-6 mb-4">';
+    echo '<div class="item-img" data-cue="slideInUp">';
+
+    if ($isVideo) {
+        echo '<div class="video-container">';
+        echo "<video controls autoplay class='landscape-video'>";
+        echo "<source src='$mediaSrc' type='video/mp4'>";
+        echo "Your browser does not support the video tag.";
+        echo "</video>";
+        echo '</div>';
+    } else {
+        echo "<img src='$mediaSrc' alt='' />";
+       
+    }
+
+    echo '<div class="content">';
+    echo "<a data-fslightbox='gallery_1' data-type='" . ($isVideo ? 'video' : 'image') . "' href='$mediaLink'>";
+    echo "<i class='bi " . ($isVideo ? 'bi-play-circle' : 'bi-arrows-angle-expand') . "'></i>";
+    echo "</a>";
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+
+    // Add CSS for the landscape video
+echo '<style>
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+    height: 0;
+    overflow: hidden;
 }
 
+.landscape-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>';
+}
 ?>
 
                 </div>
