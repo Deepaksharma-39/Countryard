@@ -41,12 +41,12 @@ closeDatabaseConnection($conn)
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.webp">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
+        href="img/apple-touch-icon-114x114-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+        href="img/apple-touch-icon-144x144-precomposed.webp">
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,11 +79,11 @@ closeDatabaseConnection($conn)
     <main>
 
         <div class="hero medium-height jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img" src="img/contact-us.jpg" alt="">
+            <img class="jarallax-img" src="img/contact-us.webp" alt="">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
-                    <small class="slide-animated one">Luxury Hotel Experience</small>
+                    <small class="slide-animated one">Luxury Resort Experience</small>
                     <h1 class="slide-animated two">Contact Us</h1>
                 </div>
             </div>
@@ -124,7 +124,7 @@ closeDatabaseConnection($conn)
                             <li>
                                 <i class="bi bi-telephone"></i>
                                 <h4>Telephone</h4>
-                                
+
                                 <div>Resort details</div>
                                 <div>+91 <?php echo $resort_phone_number1; ?><br />+91
                                     <?php echo $resort_phone_number2; ?></div><br />
@@ -196,12 +196,14 @@ closeDatabaseConnection($conn)
                             <input type="submit" value="Submit" class="btn_1 outline" id="submit-contact">
                         </p>
                     </form>
-                    <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=29.3345,79.1386817&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:340px;width:100%;}</style><a href="https://www.eireportingonline.com">ei reporting</a></div></div>
+                    <div class="map_contact">
+            <iframe src="https://maps.google.com/maps?q=29.3345,79.1386817&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
                 </div>
             </div>
             <!-- /row -->
         </div>
-       
+
 
 
 

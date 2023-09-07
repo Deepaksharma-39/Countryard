@@ -29,12 +29,12 @@ closeDatabaseConnection($conn)
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png" />
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.webp" />
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.webp" />
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png" />
+        href="img/apple-touch-icon-114x114-precomposed.webp" />
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png" />
+        href="img/apple-touch-icon-144x144-precomposed.webp" />
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -69,9 +69,7 @@ closeDatabaseConnection($conn)
     <!-- /nav_panel -->
 
     <main>
-        <div class="hero full-height jarallax"
-            data-jarallax-video="mp4:./video/homepage.mp4,webm:./video/sunset.webm,ogv:./video/sunset.ogv"
-            data-speed="0.2">
+        <div class="hero full-height jarallax" data-jarallax-video="mp4:./video/homepage.mp4" data-speed="0.2">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <!-- first page -->
@@ -99,9 +97,9 @@ closeDatabaseConnection($conn)
                 <div class="row justify-content-between flex-lg-row-reverse align-items-center">
                     <div class="col-lg-5">
                         <div class="parallax_wrapper">
-                            <img src="img/home_1.jpg" alt="" class="img-fluid rounded-img" />
+                            <img src="img/home_1.webp" alt="" class="img-fluid rounded-img" />
                             <div data-cue="slideInUp" class="img_over">
-                                <span data-jarallax-element="-30"><img src="img/home_2.jpg" alt=""
+                                <span data-jarallax-element="-30"><img src="img/home_2.webp" loading="lazy" alt="…"
                                         class="rounded-img" /></span>
                             </div>
                         </div>
@@ -134,8 +132,8 @@ closeDatabaseConnection($conn)
             </div>
             <div class="pinned-image pinned-image--medium">
                 <div class="pinned-image__container" id="section_video">
-                    <video loop="loop" muted="muted" id="video_home">
-                        <source src="video/swimming_pool.mp4" type="video/mp4" />
+                    <video loop="loop" muted="muted" id="video_home" loading="lazy">
+                        <source src="video/swimming.mp4" type="video/mp4" />
                         <!-- <source src="video/swimming_pool_2.webm" type="video/webm" />
                         <source src="video/swimming_pool_2.ogv" type="video/ogg" /> -->
                     </video>
@@ -165,7 +163,8 @@ closeDatabaseConnection($conn)
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <a href="room-details-presidential.php" class="box_cat_rooms">
                         <figure>
-                            <div class="background-image" data-background="url(img/rooms/Levish-presidental-suite.jpg)">
+                            <div class="background-image"
+                                data-background="url(img/rooms/Levish-presidental-suite.webp)">
                             </div>
                             <div class="info">
                                 <small><?php echo 'From &#8377 '.$presidentialSuitePrice.'/night'; ?></small>
@@ -182,7 +181,7 @@ closeDatabaseConnection($conn)
                             <a href="room-details-countryard.php" class="box_cat_rooms">
                                 <!-- ... (box 2 content) ... -->
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/president.jpg)"></div>
+                                    <div class="background-image" data-background="url(img/rooms/president.webp)"></div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></small>
                                         <h3>Countryard Suites</h3>
@@ -195,7 +194,7 @@ closeDatabaseConnection($conn)
                             <a href="room-details-tiger.php" class="box_cat_rooms">
                                 <!-- ... (box 3 content) ... -->
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/Tiger-den.jpg)"></div>
+                                    <div class="background-image" data-background="url(img/rooms/Tiger-den.webp)"></div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$tigerDenPrice.'/night'; ?></small>
                                         <h3>Tiger Den</h3>
@@ -208,7 +207,7 @@ closeDatabaseConnection($conn)
                             <a href="room-details-leopard.php" class="box_cat_rooms">
                                 <!-- ... (box 4 content) ... -->
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/leopard-lair1.jpg)">
+                                    <div class="background-image" data-background="url(img/rooms/leopard-lair1.webp)">
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$leopardsLairPrice.'/night'; ?></small>
@@ -222,7 +221,7 @@ closeDatabaseConnection($conn)
                             <a href="room-details-deer.php" class="box_cat_rooms">
                                 <!-- ... (box 5 content) ... -->
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/Deer-park.jpg)"></div>
+                                    <div class="background-image" data-background="url(img/rooms/Deer-park.webp)"></div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$deerParkPrice.'/night'; ?></small>
                                         <h3>Deer Park</h3>
@@ -247,7 +246,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities no-border" data-cue="slideInUp">
                             <!-- Box content for Private Parking -->
-                            <img src="img/icons/conference-hall.png" height="62" width="61" />
+                            <img src="img/icons/conference-hall.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Conference Hall</h3>
                             <p>
                                 Cutting-edge technology, and seamless amenities for impactful
@@ -258,7 +257,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for High Speed Wifi -->
-                            <img src="img/icons/Swimming-pool.png" height="62" width="61" />
+                            <img src="img/icons/Swimming-pool.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Swimming Pool</h3>
                             <p>
                                 Sparkling swimming pool nestled in scenic surroundings.
@@ -269,7 +268,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Bar & Restaurant -->
-                            <img src="img/icons/wifi.png" height="62" width="61" />
+                            <img src="img/icons/wifi.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Complimentary Wi-Fi</h3>
                             <p>
                                 Enjoy complimentary Wi-Fi throughout our premises. Stay
@@ -281,7 +280,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/balcony-room.png" height="62" width="61" />
+                            <img src="img/icons/balcony-room.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Balcony Rooms</h3>
                             <p>
                                 Unwind amidst panoramic vistas, embracing nature's beauty
@@ -292,7 +291,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/Kids-play-area.png" height="62" width="61" />
+                            <img src="img/icons/Kids-play-area.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Kids Play Area</h3>
                             <p>
                                 Our kids' area offers joy-filled adventures. Safe,
@@ -304,7 +303,7 @@ closeDatabaseConnection($conn)
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/gym.png" height="62" width="61" />
+                            <img src="img/icons/gym.webp" loading="lazy" alt="…" height="62" width="61" />
                             <h3>Gym & Spa</h3>
                             <p>
                                 Achieve fitness goals and indulge in revitalizing treatments
@@ -327,7 +326,7 @@ closeDatabaseConnection($conn)
                     <div class="col-lg-6">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="img//ameneties/Levish-presidental-suite.jpg" alt="" />
+                                <img src="img//ameneties/Levish-presidental-suite.webp" loading="lazy" alt="…" />
                             </div>
                         </div>
                     </div>
@@ -348,7 +347,7 @@ closeDatabaseConnection($conn)
                     <div class="col-lg-6 order-lg-2">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="img/ameneties/high-tech-confrecehall.jpg" alt="" />
+                                <img src="img/ameneties/high-tech-confrecehall.webp" loading="lazy" alt="…" />
                             </div>
                         </div>
                     </div>
@@ -370,7 +369,7 @@ closeDatabaseConnection($conn)
                     <div class="col-lg-6">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="img/ameneties/Rejuvenating-gym-&-spa.jpg" alt="" />
+                                <img src="img/ameneties/Rejuvenating-gym-&-spa.webp" loading="lazy" alt="…" />
                             </div>
                         </div>
                     </div>
@@ -394,7 +393,7 @@ closeDatabaseConnection($conn)
         <!-- /bg_white -->
 
         <div class="parallax_section_1 jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img kenburns-2" src="img/client-testimonial.jpg" alt="" />
+            <img class="jarallax-img kenburns-2" src="img/client-testimonial.webp" loading="lazy" alt="…" />
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
@@ -409,7 +408,7 @@ closeDatabaseConnection($conn)
                                     <div class="box_overlay">
                                         <div class="pic">
                                             <figure>
-                                                <img src="img/client2.jpg" alt="" class="img-circle" />
+                                                <img src="img/client2.webp" loading="lazy" alt="…" class="img-circle" />
                                             </figure>
                                             <h4>Parth<small>24 Jul</small></h4>
                                         </div>
@@ -425,7 +424,7 @@ closeDatabaseConnection($conn)
                                     <div class="box_overlay">
                                         <div class="pic">
                                             <figure>
-                                                <img src="img/client1.jpg" alt="" class="img-circle" />
+                                                <img src="img/client1.webp" loading="lazy" alt="…" class="img-circle" />
                                             </figure>
                                             <h4>Shivani<small>2 Aug</small></h4>
                                         </div>
@@ -441,7 +440,7 @@ closeDatabaseConnection($conn)
                                     <div class="box_overlay">
                                         <div class="pic">
                                             <figure>
-                                                <img src="img/client3.jpg" alt="" class="img-circle" />
+                                                <img src="img/client3.webp" loading="lazy" alt="…" class="img-circle" />
                                             </figure>
                                             <h4>Shekhar<small>31 Aug</small></h4>
                                         </div>

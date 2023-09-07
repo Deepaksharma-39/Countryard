@@ -10,12 +10,12 @@
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.webp">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
+        href="img/apple-touch-icon-114x114-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+        href="img/apple-touch-icon-144x144-precomposed.webp">
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
 
     <main>
         <div class="hero small-height jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img" src="img/serenity-of-nature.jpg" alt="">
+            <img class="jarallax-img" src="img/serenity-of-nature.webp" alt="">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
@@ -62,9 +62,9 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5">
                     <div class="parallax_wrapper inverted">
-                        <img src="img/home_1.jpg" alt="" class="img-fluid rounded-img">
+                        <img src="img/home_1.webp" alt="" class="img-fluid rounded-img">
                         <div data-cue="slideInUp" class="img_over"><span data-jarallax-element="-30"><img
-                                    src="img/home_2.jpg" alt="" class="rounded-img"></span></div>
+                                    src="img/home_2.webp" alt="" class="rounded-img"></span></div>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -100,7 +100,7 @@
                     <div class="col-lg-6">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="img/serenity-of-nature.jpg" alt="">
+                                <img src="img/serenity-of-nature.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="col-lg-6 order-lg-2">
                         <div class="pinned-image rounded_container pinned-image--small mb-4">
                             <div class="pinned-image__container">
-                                <img src="img/Nature-tapostry.jpg" alt="">
+                                <img src="img/Nature-tapostry.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
         <!-- /bg_white -->
 
         <div class="parallax_section_1 jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img" src="img/client-testimonial.jpg" alt="">
+            <img class="jarallax-img" src="img/client-testimonial.webp" alt="">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
@@ -159,7 +159,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="img/client1.jpg" alt="" class="img-circle">
+                                            <figure><img src="img/client1.webp" alt="" class="img-circle">
                                             </figure>
                                             <h4>Shivani<small>2 Aug</small></h4>
                                         </div>
@@ -174,7 +174,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="img/client2.jpg" alt="" class="img-circle">
+                                            <figure><img src="img/client2.webp" alt="" class="img-circle">
                                             </figure>
                                             <h4>Parth<small>24 Jul</small></h4>
                                         </div>
@@ -189,7 +189,7 @@
                                 <div>
                                     <div class="box_overlay">
                                         <div class="pic">
-                                            <figure><img src="img/client3.jpg" alt="" class="img-circle">
+                                            <figure><img src="img/client3.webp" alt="" class="img-circle">
                                             </figure>
                                             <h4>Shekhar<small>31 Aug</small></h4>
                                         </div>
@@ -220,7 +220,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities no-border" data-cue="slideInUp">
                             <!-- Box content for Private Parking -->
-                            <img src="img/icons/conference-hall.png" height="62" width="61" />
+                            <img src="img/icons/conference-hall.webp" height="62" width="61" />
                             <h3>Conference Hall</h3>
                             <p>
                                 Cutting-edge technology, and seamless amenities for impactful
@@ -231,7 +231,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for High Speed Wifi -->
-                            <img src="img/icons/Swimming-pool.png" height="62" width="61" />
+                            <img src="img/icons/Swimming-pool.webp" height="62" width="61" />
                             <h3>Swimming Pool</h3>
                             <p>
                                 Sparkling swimming pool nestled in scenic surroundings.
@@ -242,7 +242,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Bar & Restaurant -->
-                            <img src="img/icons/wifi.png" height="62" width="61" />
+                            <img src="img/icons/wifi.webp" height="62" width="61" />
                             <h3>Complimentary Wi-Fi</h3>
                             <p>
                                 Enjoy complimentary Wi-Fi throughout our premises. Stay
@@ -254,7 +254,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/balcony-room.png" height="62" width="61" />
+                            <img src="img/icons/balcony-room.webp" height="62" width="61" />
                             <h3>Balcony Rooms</h3>
                             <p>
                                 Unwind amidst panoramic vistas, embracing nature's beauty
@@ -265,7 +265,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/Kids-play-area.png" height="62" width="61" />
+                            <img src="img/icons/Kids-play-area.webp" height="62" width="61" />
                             <h3>Kids Play Area</h3>
                             <p>
                                 Our kids' area offers joy-filled adventures. Safe,
@@ -277,7 +277,7 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="box_facilities" data-cue="slideInUp">
                             <!-- Box content for Swimming Pool -->
-                            <img src="img/icons/gym.png" height="62" width="61" />
+                            <img src="img/icons/gym.webp" height="62" width="61" />
                             <h3>Gym & Spa</h3>
                             <p>
                                 Achieve fitness goals and indulge in revitalizing treatments

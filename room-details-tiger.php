@@ -29,12 +29,12 @@ closeDatabaseConnection($conn)
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.webp">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-        href="img/apple-touch-icon-114x114-precomposed.png">
+        href="img/apple-touch-icon-114x114-precomposed.webp">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-        href="img/apple-touch-icon-144x144-precomposed.png">
+        href="img/apple-touch-icon-144x144-precomposed.webp">
 
     <!-- GOOGLE WEB FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,7 +68,7 @@ closeDatabaseConnection($conn)
     <main>
 
         <div class="hero medium-height jarallax" data-jarallax data-speed="0.2">
-            <img class="jarallax-img kenburns" src="img/rooms/Tiger-den.jpg" alt="">
+            <img class="jarallax-img kenburns" src="img/rooms/1350-by-350tiger.webp" alt="">
             <div class="wrapper opacity-mask d-flex align-items-center  text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">
@@ -104,16 +104,16 @@ closeDatabaseConnection($conn)
                             </div>
                         </div>
                         <div class="item">
-                            <img src="img/rooms/Tiger-den1.jpg" alt="">
+                            <img src="img/rooms/Tiger-den1.webp" alt="">
                         </div>
                         <div class="item">
-                            <img src="img/rooms/Tiger-den2.jpg" alt="">
+                            <img src="img/rooms/Tiger-den2.webp" alt="">
                         </div>
                         <div class="item">
-                            <img src="img/rooms/Tiger-den3.jpg" alt="">
+                            <img src="img/rooms/Tiger-den3.webp" alt="">
                         </div>
                         <div class="item">
-                            <img src="img/rooms/Tiger-den4.jpg" alt="">
+                            <img src="img/rooms/Tiger-den4.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -122,10 +122,10 @@ closeDatabaseConnection($conn)
                         href="video/tiger.mp4">FullScreen
                         Gallery</a>
                     <a data-fslightbox="gallery_1" data-type="image"
-                        href="img/rooms/Tiger-den2.jpg"></a>
-                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den3.jpg"></a>
-                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den4.jpg"></a>
-                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den1.jpg"></a>
+                        href="img/rooms/Tiger-den2.webp"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den3.webp"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den4.webp"></a>
+                    <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/Tiger-den1.webp"></a>
                 </div>
             </div>
         </div>
@@ -244,7 +244,7 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/client1.jpg" alt=""></figure>
+                                <figure><img src="img/client1.webp" alt=""></figure>
                                 <h5>Shivani</h5>
                             </div>
                             <div class="col-md-10 review_content">
@@ -264,7 +264,7 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/client2.jpg" alt=""></figure>
+                                <figure><img src="img/client2.webp" alt=""></figure>
                                 <h5>Parth</h5>
                             </div>
                             <div class="col-md-10 review_content">
@@ -284,7 +284,7 @@ closeDatabaseConnection($conn)
                     <div class="review_card">
                         <div class="row">
                             <div class="col-md-2 user_info">
-                                <figure><img src="img/client3.jpg" alt=""></figure>
+                                <figure><img src="img/client3.webp" alt=""></figure>
                                 <h5>Shekhar</h5>
                             </div>
                             <div class="col-md-10 review_content">
@@ -331,7 +331,7 @@ closeDatabaseConnection($conn)
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                             <a href="room-details-countryard.php" class="box_cat_rooms">
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/Countryard-suite.jpg)">
+                                    <div class="background-image" data-background="url(img/rooms/Countryard-suite.webp)">
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$countryardSuitePrice.'/night'; ?></small>
@@ -344,7 +344,7 @@ closeDatabaseConnection($conn)
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                             <a href="room-details-presidential.php" class="box_cat_rooms">
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/president.jpg)"></div>
+                                    <div class="background-image" data-background="url(img/rooms/president.webp)"></div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$presidentialSuitePrice.'/night'; ?></small>
                                         <h3>Presidential Suite</h3>
@@ -356,7 +356,7 @@ closeDatabaseConnection($conn)
                         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                             <a href="room-details-leopard.php" class="box_cat_rooms">
                                 <figure>
-                                    <div class="background-image" data-background="url(img/rooms/leopard-lair.jpg)">
+                                    <div class="background-image" data-background="url(img/rooms/leopard-lair.webp)">
                                     </div>
                                     <div class="info">
                                         <small><?php echo 'From &#8377 '.$leopardsLairPrice.'/night'; ?></small>

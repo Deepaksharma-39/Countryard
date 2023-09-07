@@ -1,0 +1,5 @@
+<FilesMatch "\.(webp|png)$">
+    Header set Cache-Control "public, max-age=604800" # Cache for a week (in seconds)
+    Header set Expires "Thu, 31 Dec 2024 23:59:59 GMT"
+</FilesMatch>
+

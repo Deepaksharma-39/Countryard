@@ -1,0 +1,70 @@
+.menubar {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* padding-top: 20px; */
+}
+
+.menu {
+  /* border: 1px solid black; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.menu > a {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #333;
+  font-weight: 500;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+
+
+
+.menu a.active {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.content {
+  /* background-color: aqua; */
+}
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+.content th,
+.content td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.content th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.content .edit-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+

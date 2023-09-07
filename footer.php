@@ -28,7 +28,7 @@ closeDatabaseConnection($conn)
 <footer class="revealed">
     <div class="footer_bg">
         <div class="gradient_over"></div>
-        <div class="background-image" data-background="url(img/rooms/footer.jpg)"></div>
+        <div class="background-image" data-background="url(img/rooms/footer.webp)"></div>
     </div>
     <div class="container">
         <div class="row move_content">
@@ -120,7 +120,7 @@ closeDatabaseConnection($conn)
                             <a href="https://instagram.com/countryardjimcorbett?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="bi bi-instagram"></i></a>
                         </li>
                         <li>
-                            <a href=#><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://wa.me/918076017737?lang=eng"><i class="bi bi-whatsapp"></i></a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/profile.php?id=61550289917163&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>

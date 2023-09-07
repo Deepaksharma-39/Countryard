@@ -1,0 +1,4 @@
+<FilesMatch "\.mp4$">
+    Header set Cache-Control "public, max-age=31536000"
+    Header set Expires "Thu, 31 Dec 2024 23:59:59 GMT"
+</FilesMatch>

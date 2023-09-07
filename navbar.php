@@ -11,9 +11,9 @@
         <div class="row align-items-center">
             <div class="col-6">
                 <!-- header logo -->
-                <a href="index.php" class="logo_normal"><img src="img/logo.png" width="auto" height="60" alt="" /></a>
-                <a href="index.php" class="logo_sticky"><img src="img/logo_sticky.png" width="auto" height="60"
-                        alt="" /></a>
+                <a href="index.php" class="logo_normal"><img src="img/logo.webp" width="auto" height="60" loading="lazy" alt="…" /></a>
+                <a href="index.php" class="logo_sticky"><img src="img/logo_sticky.webp" width="auto" height="60"
+                loading="lazy" alt="…" /></a>
             </div>
             <div class="col-6">
                 <nav>
@@ -42,7 +42,7 @@
 
 <div class="nav_panel">
     <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
-    <div class="logo_panel"><img src="img/logo_sticky.png" width="auto" height="60" alt=""></div>
+    <div class="logo_panel"><img src="img/logo_sticky.webp?crop=circle" width="auto" height="60" loading="lazy" alt="…"></div>
     <div class="sidebar-navigation">
         <nav>
             <ul class="level-1">
@@ -52,7 +52,7 @@
                 <li class="parent"><a href="#0">Rooms & Suites</a>
                     <ul class="level-2">
                         <li class="back"><a href="#0">Back</a></li>
-                        <li><a href="room.php">Room Details</a></li>
+                        
                         <li><a href="room-details-presidential.php">Presidential Suites</a></li>
                         <li><a href="room-details-countryard.php">Countryard Suites</a></li>
                         <li><a href="room-details-tiger.php">Tiger Den</a></li>
@@ -61,12 +61,12 @@
 
                     </ul>
                 </li>
+                <li><a href="room.php">Tariff</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
 
-                <li><a href="privacypolicy.php">Privacy Policy</a>
-                <li><a href="terms&condition.php">Terms & Conditions</a>
+                
 
                 </li>
             </ul>
