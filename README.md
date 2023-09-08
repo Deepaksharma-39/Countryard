@@ -14,7 +14,7 @@ Welcome to the documentation for the Countryard Hotel Booking webpage! This docu
 
 ## Introduction
 
-The Courtyard Hotel Booking webpage is designed to provide users with the ability to browse through available rooms, view their prices, and explore a gallery of images. Users can also send inquiries through the Contact Us page. The admin panel allows administrators to manage various aspects of the website, such as updating contact details, managing reservations, and maintaining the image gallery.
+The Countryard Hotel Booking webpage is designed to provide users with the ability to browse through available rooms, view their prices, and explore a gallery of images. Users can also send inquiries through the Contact Us page. The admin panel allows administrators to manage various aspects of the website, such as updating contact details, managing reservations, and maintaining the image gallery.
 
 ## Features
 
