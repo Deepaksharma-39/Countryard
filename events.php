@@ -4,16 +4,7 @@ include_once 'config.php';
 $presidentialSuitePrice=$countryardSuitePrice=$tigerDenPrice=$leopardsLairPrice=$deerParkPrice='';
 
 $conn = connectToDatabase();
-
-$roomPrices = getRoomPrices($conn);
-
-$countryardSuitePrice = $roomPrices["countryard_suite"];
-$presidentialSuitePrice = $roomPrices["presidential_suite"];
-$leopardsLairPrice = $roomPrices["leopards_lair"];
-$deerParkPrice = $roomPrices["deer_park"];
-$tigerDenPrice = $roomPrices["tiger_den"];
-
-$mediaData=getPaginatedImageData($conn);
+$mediaData=getPaginatedEventData($conn);
 closeDatabaseConnection($conn)   
 
 ?>
@@ -71,7 +62,7 @@ closeDatabaseConnection($conn)
     <!-- /nav_panel -->
 
     <main>
-        <div class="hero full-height jarallax" data-jarallax-video="mp4:./video/homepage.mp4" data-speed="0.2">
+        <div class="hero full-height jarallax" data-jarallax-video="mp4:./video/homepage.mp4" data-speed="0.2" id="queryForm">
             <div class="wrapper opacity-mask d-flex align-items-center justify-content-center text-center animate_hero"
                 data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <!-- first page -->
@@ -87,7 +78,7 @@ closeDatabaseConnection($conn)
                 </div>
 
 
-                <div class="col-xl-7 col-lg-7 order-lg-1">
+                <div class="col-xl-7 col-lg-7 order-lg-1" >
                     <h3 class="mb-3" >Get in Touch</h3>
                     <form method="post" action="phpmailer/contact_template_email.php" id="contactform"
                         autocomplete="off" class="pos1">
@@ -185,61 +176,47 @@ closeDatabaseConnection($conn)
             <div class="container margin_120_95" style="padding-top :30px; padding-bottom :30px;">
                 <div class="title mb-2">
                     <small data-cue="slideInUp">Luxury experience</small>
-                    <h2 data-cue="slideInUp" data-delay="200">Rooms & Suites</h2>
+                    <h2 data-cue="slideInUp" data-delay="200">Wedding & Events</h2>
                 </div>
                 <div class="owl-carousel owl-theme carousel_item_3 rounded-img">
                     <div class="item" data-cues="slideInUp" data-delay="300">
-                        <a href="room-details.html" class="box_cat_rooms">
+                        <a href="#queryForm" class="box_cat_rooms">
                             <figure>
                                 <div class="background-image" style="background-image: url(image/img1.jpg)"></div>
                                 <div class="info">
-                                    <small>From $150/night</small>
-                                    <h3>Double Room</h3>
-                                    <span>Read more</span>
+                                    
+                                    <h3>Events</h3>
+                                    <span>Book Now</span>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <!-- /item-->
                     <div class="item" data-cues="slideInUp" data-delay="400">
-                        <a href="room-details.html" class="box_cat_rooms">
+                        <a href="#queryForm" class="box_cat_rooms">
                             <figure>
                                 <div class="background-image" style="background-image: url(image/img2.jpg)"></div>
                                 <div class="info">
-                                    <small>From $190/night</small>
-                                    <h3>Deluxe Room</h3>
-                                    <span>Read more</span>
+                                    <h3>Weddings</h3>
+                                    <span>Book Now</span>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <!-- /item-->
                     <div class="item" data-cues="slideInUp" data-delay="500">
-                        <a href="room-details.html" class="box_cat_rooms">
+                        <a href="#queryForm" class="box_cat_rooms">
                             <figure>
                                 <div class="background-image" style="background-image: url(image/img3.jpg)"></div>
                                 <div class="info">
-                                    <small>From $240/night</small>
-                                    <h3>Superior Room</h3>
-                                    <span>Read more</span>
+                                    <h3>Birthdays</h3>
+                                    <span>Book Now</span>
                                 </div>
                             </figure>
                         </a>
                     </div>
                     <!-- /item-->
-                    <div class="item" data-cues="slideInUp" data-delay="600">
-                        <a href="room-details.html" class="box_cat_rooms">
-                            <figure>
-                                <div class="background-image" data-jarallax-video="mp4:./video/video4.mp4"></div>
-                                <div class="info">
-                                    <small>From $250/night</small>
-                                    <h3>Junior Suite</h3>
-                                    <span>Read more</span>
-                                </div>
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- /item-->
+                  
                 </div>
                 <!-- /carousel-->
                 <p class="text-end"><a href="room-list-1.html" class="btn_1 outline mt-2" data-cue="slideInUp" data-delay="750">View all Rooms</a></p>

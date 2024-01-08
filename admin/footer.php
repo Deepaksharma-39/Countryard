@@ -28,7 +28,7 @@ closeDatabaseConnection($conn)
 <footer class="revealed">
     <div class="footer_bg">
         <div class="gradient_over"></div>
-        <div class="background-image" data-background="url(../img/rooms/footer.jpg)"></div>
+        <div class="background-image" data-background="url(../img/rooms/footer.webp)"></div>
     </div>
     <div class="container">
         <div class="row move_content">

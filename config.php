@@ -3,7 +3,7 @@ function connectToDatabase() {
     $db_host = 'localhost';
     $db_user = 'root';
     $db_pass = '';
-    $db_name = 'countryard';
+    $db_name = 'u527903771_Countryard';
 
     $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
@@ -100,7 +100,7 @@ function getPaginatedImageData($conn) {
 }
 
 function getPaginatedEventData($conn) {
-    
+     
     // Fetch image data from the database with pagination
     $sql = "SELECT id,filename, filepath FROM events";
     $result = $conn->query($sql);
@@ -108,7 +108,7 @@ function getPaginatedEventData($conn) {
     $eventData = array();
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            $imageData[] = array(
+            $eventData[] = array(
                 "id" => $row["id"],
                 "src" => 'admin/' . $row["filepath"],
                 "link" => 'admin/' . $row["filepath"]

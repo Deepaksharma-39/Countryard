@@ -11,8 +11,8 @@
         <div class="row align-items-center">
             <div class="col-6">
                 <!-- header logo -->
-                <a href="../index.php" class="logo_normal"><img src="../img/logo.png" width="auto" height="60" alt="" /></a>
-                <a href="../index.php" class="logo_sticky"><img src="../img/logo_sticky.png" width="auto" height="60"
+                <a href="../index.php" class="logo_normal"><img src="../img/logo.webp" width="auto" height="60" alt="" /></a>
+                <a href="../index.php" class="logo_sticky"><img src="../img/logo_sticky.webp" width="auto" height="60"
                         alt="" /></a>
             </div>
             <div class="col-6">
@@ -42,7 +42,7 @@
 
 <div class="nav_panel">
     <a href="#" class="closebt open_close_nav_panel"><i class="bi bi-x"></i></a>
-    <div class="logo_panel"><img src="../img/logo_sticky.png" width="auto" height="60" alt=""></div>
+    <div class="logo_panel"><img src="../img/logo_sticky.webp" width="auto" height="60" alt=""></div>
     <div class="sidebar-navigation">
         <nav>
             <ul class="level-1">

@@ -99,6 +99,6 @@ window.alert(uploadSuccessCount + " images uploaded and information stored in th
 
 // Redirect to another page after a delay (for example, after 3 seconds)
 setTimeout(function() {
-    window.location.href = "gallery.php"; // Replace with your desired URL
+    window.location.href = "events.php"; // Replace with your desired URL
 }, 1000); // Delay in milliseconds (1 seconds in this example)
 </script>

@@ -97,7 +97,7 @@ closeDatabaseConnection($conn);
                         <input type="file" name="media[]" id="images" accept="image/*,video/*" multiple required>
 
                     </div>
-                    <input type="submit" name="upload" value="Upload" class='edit-button'>
+                    <input type="submit" name="eventUpload" value="Upload" class='edit-button'>
                 </form>
 
                 <div class="container margin_120_95">
