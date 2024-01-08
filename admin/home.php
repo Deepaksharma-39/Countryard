@@ -75,6 +75,7 @@ require "auth_check.php"
                 <a href="resort.php" id="resort">Resort Details</a>
                 <a href="reservation.php" id="office">Office Details</a>
                 <a href="gallery.php" id="gallery">Gallery</a>
+                <a href="events.php" id="gallery">Events</a>
             </div>
 
             <div class="content">

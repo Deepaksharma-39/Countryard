@@ -4810,4 +4810,27 @@ textarea.form-control {
   font-size: 28px;
 }
 
+.pos{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pos1{
+  color: #000;
+  width:60%;
+  height:400px;
+  text-align: left;
+  margin-left: 170px;
+  margin-top: -15px;
+  padding:20px;
+}
+
+.txt{
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  padding: 5px;
+}
+
 

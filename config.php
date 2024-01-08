@@ -99,6 +99,26 @@ function getPaginatedImageData($conn) {
     return $imageData;
 }
 
+function getPaginatedEventData($conn) {
+    
+    // Fetch image data from the database with pagination
+    $sql = "SELECT id,filename, filepath FROM events";
+    $result = $conn->query($sql);
+
+    $eventData = array();
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $imageData[] = array(
+                "id" => $row["id"],
+                "src" => 'admin/' . $row["filepath"],
+                "link" => 'admin/' . $row["filepath"]
+            );
+        }
+    }
+
+    return $eventData;
+}
+
 function fetchReviewDetails($conn) {
     global $id, $name, $lastname, $email, $phone, $message;
     $query = "SELECT * FROM contact_form"; // Replace with your actual table name

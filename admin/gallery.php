@@ -84,6 +84,8 @@ closeDatabaseConnection($conn);
                 <a href="resort.php" id="resort">Messages</a>
                 <a href="reservation.php" id="office">Office Details</a>
                 <a href="gallery.php" id="gallery">Gallery</a>
+                <a href="events.php" id="gallery">Events</a>
+
             </div>
             <div class="content" style="padding : 20px 0px 0px 20px;">
 

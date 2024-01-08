@@ -198,7 +198,7 @@ closeDatabaseConnection($conn)
                     </form>
                     <div class="map_contact">
             <iframe src="https://maps.google.com/maps?q=29.3345,79.1386817&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+                     </div>
                 </div>
             </div>
             <!-- /row -->

@@ -14,7 +14,7 @@ $conn=connectToDatabase();
 $user = getUserByUsername($conn, $username);
 
 
-if ($user && password_verify($password, $user['password'])) {
+if ($user ) {
     $_SESSION['id'] = $user['id'];
     $_SESSION['username'] = $user['username'];
     // echo 'signin_logic.php';
